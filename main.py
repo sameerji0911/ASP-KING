@@ -64,7 +64,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/ASPSIR01"),
-            InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/PAPPUPELUBABA"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/sameershaikh126878/LEECH-AS-BOT"),
         ],
     ]
 )
@@ -430,7 +430,7 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"If you face any problem contact -  [{CREDIT}](https://t.me/saini_contact_bot)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [{CREDIT}](https://t.me/ASPSIR01)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
@@ -536,7 +536,7 @@ async def txt_handler(client: Client, m: Message):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 🦋\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
