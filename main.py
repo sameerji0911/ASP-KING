@@ -826,12 +826,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n\n**Video Title :** `{name1} [{res}p].mkv`\n\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n\n»»———-{CR}———-««'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n\n**File Title :** `{name1}.pdf`\n\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n\n»»———-{CR}———-««'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n\n**Zip Title :** `{name1}.zip`\n\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n\n»»———-{CR}———-««' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n\n**Img Title :** `{name1}.jpg`\n\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n\n»»———-{CR}———-««'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n\n**Audio Title :** `{name1}.mp3`\n\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n\n»»———-{CR}———-««'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n\n**Html Title :** `{name1}.html`\n\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n\n»»———-{CR}———-««'
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n\n**Video Title :** `{name1} [{res}p].mkv`\n\n<blockquote><b>📚 Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n\n**File Title :** `{name1}.pdf`\n\n<blockquote><b>📚 Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n\n**Zip Title :** `{name1}.zip`\n\n<blockquote><b>📚 Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n\n**Img Title :** `{name1}.jpg`\n\n<blockquote><b>📚 Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n\n**Audio Title :** `{name1}.mp3`\n\n<blockquote><b>📚 Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n\n**Html Title :** `{name1}.html`\n\n<blockquote><b>📚 Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
                   
                 if "drive" in url:
                     try:
