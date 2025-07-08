@@ -64,7 +64,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/ASPSIR01"),
-            InlineKeyboardButton(text="🛠️ Repo", url="https://files.catbox.moe/a44rnw.jpg"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://files.catbox.moe/0lhg6h.jpg"),
         ],
     ]
 )
@@ -826,8 +826,8 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'\n★─── ⋆⋅ ★{str(count).zfill(3)}★ ⋅⋆ ───★\n\n**🎥 𝐕𝐈𝐃𝐄𝐎 𝐍𝐀𝐌𝐄 ➦** `{name1} [{res}p].mkv`\n\n<blockquote><b>📚 BATCH NAME ➱</b> {b_name}</blockquote>\n\n**💠 EXTRACTED BY ➱**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
-                cc1 = f'\n★─── ⋆⋅ ★{str(count).zfill(3)}★ ⋅⋆ ───★\n\n**📕 𝐏𝐃𝐅 𝐍𝐀𝐌𝐄 ➦** `{name1}.pdf`\n\n<blockquote><b>📚 BATCH NAME ➱</b> {b_name}</blockquote>\n\n**💠 EXTRACTED BY ➱**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
+                cc = f'\n★─── ⋆⋅ ★{str(count).zfill(3)}★ ⋅⋆ ───★\n\n**🌱 𝐕𝐈𝐃𝐄𝐎 𝐍𝐀𝐌𝐄 ➦** `{name1} [{res}p].mkv`\n\n<blockquote><b>📚 BATCH NAME ➱</b> {b_name}</blockquote>\n\n**💠 EXTRACTED BY ➱**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
+                cc1 = f'\n★─── ⋆⋅ ★{str(count).zfill(3)}★ ⋅⋆ ───★\n\n**🍂 𝐏𝐃𝐅 𝐍𝐀𝐌𝐄 ➦** `{name1}.pdf`\n\n<blockquote><b>📚 BATCH NAME ➱</b> {b_name}</blockquote>\n\n**💠 EXTRACTED BY ➱**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
                 cczip = f'\n★─── ⋆⋅ ★{str(count).zfill(3)}★ ⋅⋆ ───★\n\n**Zip Title :** `{name1}.zip`\n\n<blockquote><b>📚 BATCH NAME ➱ </b> {b_name}</blockquote>\n\n**💠 EXTRACTED BY ➱**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>' 
                 ccimg = f'\n★─── ⋆⋅ ★{str(count).zfill(3)}★ ⋅⋆ ───★\n\n**Img Title :** `{name1}.jpg`\n\n<blockquote><b>📚 BATCH NAME ➱ </b> {b_name}</blockquote>\n\n**💠 EXTRACTED BY ➱**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
                 ccm = f'\n★─── ⋆⋅ ★{str(count).zfill(3)}★ ⋅⋆ ───★\n\n**Audio Title :** `{name1}.mp3`\n\n<blockquote><b>📚 BATCH NAME ➱</b> {b_name}</blockquote>\n\n**💠 EXTRACTED BY ➱**\n────── ⋆⋅☆⋅⋆ ──────\n\n{CR}\n\n────── ⋆⋅☆⋅⋆ ──────\n\n<blockquote><b>»»———-{CR}———-««</blockquote>'
